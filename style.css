@@ -1,24 +1,61 @@
-body{
+body {
     font-family: 'Dancing Script', cursive;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 60px;
 }
-h3{
+
+h3 {
     font-size: 40px;
 }
-#sp1{
+
+#sp1 {
     color: rgb(43, 150, 11);
 }
-#sp2{
+
+#sp2 {
     color: rgb(68, 6, 109);
 }
-#sp3{
+
+#sp3 {
     color: rgb(56, 224, 33);
 }
-#sp4{
+
+#sp4 {
     color: rgb(32, 17, 238);
 }
-#sp5{
+
+#sp5 {
     color: brown;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.half-width img {
+    width: 80%;
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(purple, violet);
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
