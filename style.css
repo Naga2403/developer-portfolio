@@ -86,7 +86,22 @@ p {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+}
+
+.item-one {
+    border-left: 10px solid rgb(208, 240, 25);
+    border-bottom: 10px groove rgb(109, 42, 216);
+}
+
+.item-two {
+    border-left: 10px solid rgb(14, 74, 238);
+    border-bottom: 10px double rgb(233, 112, 13);
+}
+
+footer p {
+    text-align: center;
 }
