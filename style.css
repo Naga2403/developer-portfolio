@@ -11,6 +11,10 @@ h3 {
     font-size: 40px;
 }
 
+.orange-color {
+    color: rgb(45, 27, 212);
+}
+
 #sp1 {
     color: rgb(43, 150, 11);
 }
@@ -69,4 +73,20 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
 }
